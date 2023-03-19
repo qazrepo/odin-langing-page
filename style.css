@@ -17,8 +17,16 @@ a {
     height: auto;
 }
 
-a:hover {
+h3:hover {
+    text-decoration: underline;
+
     color: rgb(198, 250, 247);
+}
+
+a:hoveR {
+    text-decoration: underline;
+    color: rgb(198, 250, 247);
+
 }
 
 ul {
