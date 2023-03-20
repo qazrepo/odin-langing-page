@@ -80,13 +80,14 @@ button {
 }
 
 .image-container-one {
-    width: 300px;
+    width: 250px;
 }
 
 .image-container-one img {
     width: 100%;
     height: auto;
     border-radius: 15px;
+    ;
 }
 
 .container-text-and-image {
@@ -96,4 +97,33 @@ button {
     margin: 20px 0;
     align-items: center;
     justify-content: space-between;
+}
+
+.image-1,
+.image-2,
+.image-3,
+.image-4 {
+    width: 200px;
+    height: 200px;
+    border: 2px solid black;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.image-container-two p {
+    width: 200px;
+}
+
+h2 {
+    text-align: center;
+    margin: 20px auto;
+}
+
+.image-container-two {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+    flex-shrink: 2;
 }
