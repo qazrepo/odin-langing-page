@@ -12,20 +12,13 @@ a {
     text-decoration: none;
     color: white;
     font-weight: 600;
-    font-size: medium;
-    margin: 0;
-    padding: 0;
-    height: auto;
-
 }
 
 h3:hover {
-    text-decoration: underline;
-    color: white;
+    color: rgb(230, 14, 14);
 }
 
 a:hoveR {
-    text-decoration: underline;
     color: rgb(102, 233, 142);
 }
 
@@ -36,7 +29,7 @@ ul {
     display: flex;
     gap: 20px;
     color: white;
-
+    font-size: large;
 }
 
 .header {
@@ -49,35 +42,28 @@ ul {
 
 div h3 {
     color: rgb(102, 233, 142);
-    font-size: 24px;
+    font-size: 22px;
 }
 
 
-.header-container {
-    background-color: #34495e;
+.container-one {
+    background-color: #184572;
     padding: 20px 10vw;
     color: white;
 }
 
-.big {
+.big-text {
     font-size: 30px;
     color: rgb(102, 233, 142);
 }
 
-.below-header {
+.h1-p-button-box {
     display: flex;
     flex-direction: column;
-    flex-wrap: wrap;
-    width: 700px;
     flex: 1;
-    min-width: 100px;
 }
 
-p{
-    width: auto;
-}
-
-.button {
+button {
     margin-top: 20px;
     margin-bottom: 20px;
     border: 1px solid;
@@ -87,30 +73,27 @@ p{
     font-size: 15px;
 }
 
-.button:hover{
-    background-color:rgb(102, 233, 142);
-cursor: pointer;
-color: white;
+.button:hover {
+    background-color: rgb(102, 233, 142);
+    cursor: pointer;
+    color: white;
 }
 
-.img{ 
+.image-container-one {
     width: 300px;
-
 }
 
-.img img{
+.image-container-one img {
     width: 100%;
     height: auto;
+    border-radius: 15px;
 }
 
-.text-and-image{
-    gap: 10px;
+.container-text-and-image {
     display: flex;
     flex-wrap: wrap;
     padding: 0;
-    margin: 20px 0 ;
+    margin: 20px 0;
     align-items: center;
     justify-content: space-between;
 }
-
-
