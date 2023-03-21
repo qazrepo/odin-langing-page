@@ -12,6 +12,7 @@ a {
     text-decoration: none;
     color: white;
     font-weight: 600;
+    font-size: medium;
 }
 
 h3:hover {
@@ -47,11 +48,14 @@ div h3 {
     font-size: 25px;
 }
 
-
 .container-one {
     background-color: #184572;
     padding: 20px 10vw;
     color: white;
+}
+
+.h1-p-button-box p {
+    font-size: 16px;
 }
 
 .big-text {
@@ -97,16 +101,20 @@ button:hover {
     display: flex;
     flex-wrap: wrap;
     padding: 0;
-    margin: 20px 0;
     align-items: center;
     justify-content: space-between;
+    margin-top: 20px;
+}
+
+.container-two {
+    padding: 0 10vw;
 }
 
 .image-1,
 .image-2,
 .image-3,
 .image-4 {
-    width: 200px;
+    width: 230px;
     border-radius: 5px;
     text-align: center;
 }
@@ -119,7 +127,8 @@ button:hover {
 }
 
 .image-container-two p {
-    width: 200px;
+    width: 230px;
+    font-size: 18px;
 }
 
 h2 {
@@ -132,8 +141,29 @@ h2 {
 .image-container-two {
     text-align: center;
     display: flex;
-    justify-content: center;
-    gap: 30px;
+    justify-content: space-between;
     flex-wrap: wrap;
     flex-shrink: 2;
+}
+
+.container-three {
+    margin-top: 20px;
+    background-color: rgb(20, 145, 57);
+    padding: 20px 10vw;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+}
+
+.italic-p {
+    font-style: italic;
+    font-weight: 500;
+}
+
+.quote {
+    display: flex;
+    flex-direction: column;
+}
+
+.quote h4 {
+    margin-left: auto;
 }
