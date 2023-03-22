@@ -17,11 +17,11 @@ a {
 
 h3:hover {
     color: rgb(255, 255, 255);
-    text-decoration: underline;
+    color: white;
 }
 
 a:hoveR {
-    color: rgb(102, 233, 142);
+    color: rgb(255 247 0);
 }
 
 ul {
@@ -44,7 +44,7 @@ ul {
 }
 
 div h3 {
-    color: rgb(102, 233, 142);
+    color: rgb(255 247 0);
     font-size: 25px;
 }
 
@@ -60,7 +60,7 @@ div h3 {
 
 .big-text {
     font-size: 30px;
-    color: rgb(102, 233, 142);
+    color: rgb(255 247 0);
 }
 
 .h1-p-button-box {
@@ -82,8 +82,8 @@ button {
 }
 
 button:hover {
-    background-color: rgb(102, 233, 142);
     cursor: pointer;
+    background-color: black;
     color: white;
 }
 
@@ -134,29 +134,30 @@ button:hover {
 h2 {
     text-align: center;
     margin: 20px auto;
-    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
-
+    padding: 5px;
+    box-shadow: 0 3px 10px rgba(106, 130, 175, 0.2);
 }
 
 .image-container-two {
     text-align: center;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     flex-wrap: wrap;
-    flex-shrink: 2;
+    gap: 20px;
 }
 
 .container-three {
     margin-top: 20px;
-    background-color: rgb(20, 145, 57);
+    background-color: rgba(0, 0, 0, 0.897);
     padding: 20px 10vw;
-    font-size: 20px;
+    font-size: 18px;
     color: rgb(255, 255, 255);
 }
 
 .italic-p {
     font-style: italic;
     font-weight: 500;
+    color: rgb(255 247 0);
 }
 
 .quote {
@@ -166,4 +167,5 @@ h2 {
 
 .quote h4 {
     margin-left: auto;
+    color: rgb(255 247 0);
 }
