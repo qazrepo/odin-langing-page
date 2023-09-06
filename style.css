@@ -17,7 +17,6 @@ a {
 
 h3:hover {
     color: rgb(255, 255, 255);
-    color: white;
 }
 
 a:hoveR {
@@ -75,10 +74,12 @@ button {
     margin-top: 10px;
     margin-bottom: 20px;
     border: 1px solid;
-    border-radius: 15px;
+    border-radius: 0px;
     width: fit-content;
     padding: 2px 15px;
     font-size: 15px;
+    font-weight: 700;
+    background-color: rgba(255, 247, 0, 0.945);
 }
 
 button:hover {
@@ -169,3 +170,54 @@ h2 {
     margin-left: auto;
     color: rgb(255 247 0);
 }
+
+.call-to-action {
+    margin-top: 20px;
+    margin-bottom: 80px;
+    padding: 20px 20vw;
+    text-align: left;
+}
+
+.call-to-action p {
+margin-top: 5px;
+width: 85%;
+}
+
+.call-to-action h3 {
+    color: black;
+    width: 85%;
+    }
+
+
+    .call-to-action button {
+        border-width: 1px;
+        border-color: rgba(97, 97, 97, 0.541);
+
+        }
+
+    .email-form {
+        padding: 10px 10px;
+        width: 85%;
+        margin-top: 1vh;
+        font-size: 1rem;
+        color: #55595c;
+        background-color: #ffffff1f;
+        border: 1px solid rgba(0,0,0,.15);
+        text-align: center;
+    }
+    
+
+    .btn-form{
+        padding: 20px 10px;
+        width: 50%;
+        text-align: center;
+        padding: .5rem .75rem;
+        margin-top: 1vh;
+        border-radius: 0;
+    }
+
+    .sign-up{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
