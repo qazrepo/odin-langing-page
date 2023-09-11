@@ -173,8 +173,7 @@ h2 {
 
 .call-to-action {
     margin-top: 10px;
-    margin-bottom: 0px;
-    padding: 20px 10vw;
+    padding: 20px 10vw 10px 10vw;
     text-align: left;
 }
 
@@ -198,7 +197,7 @@ width: auto;
     .email-form {
         padding: 10px 10px;
         width: 18em;
-        margin-top: 1vh;
+        margin-top: 1.5vh;
         font-size: 1rem;
         color: #55595c;
         background-color: #ffffff1f;
@@ -224,8 +223,11 @@ width: auto;
         height: 5vh;
         background-color: rgba(221, 221, 221, 0.589);
         color: rgb(59, 59, 59);
-        text-align: center;
-        padding: 10px;
+        margin-bottom: 5px;
+        padding: 25px;
         font-size: medium;
         font-weight: 450;
+        display: flex;
+        justify-content: center;
+        align-items: center;
       }
