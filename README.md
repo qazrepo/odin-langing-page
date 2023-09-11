@@ -1,2 +1,2 @@
 # odin-landing-page
-This is my landing page for The Odin Project created using vanilla HTML and CSS.
+odin landing page project for practising html and css

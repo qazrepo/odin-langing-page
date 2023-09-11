@@ -224,6 +224,7 @@ width: auto;
         height: 5vh;
         background-color: rgba(221, 221, 221, 0.589);
         color: rgb(59, 59, 59);
+        margin-bottom: 5px;
         padding: 25px;
         font-size: medium;
         font-weight: 450;
@@ -231,3 +232,4 @@ width: auto;
         justify-content: center;
         align-items: center;
       }
+
